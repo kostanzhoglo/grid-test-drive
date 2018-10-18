@@ -10,3 +10,9 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+
+
+
+// "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 5555 --browser 'FirefoxDeveloperEdition'"
