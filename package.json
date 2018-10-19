@@ -9,7 +9,7 @@
     "react-scripts": "2.0.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --browser 'Firefox Developer Edition'",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

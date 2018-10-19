@@ -3,22 +3,22 @@ import './App.css';
 
 class App extends Component {
   render() {
+
+    const consoleThis = () => {
+      console.log("I'm being read")
+    }
+
     return (
-      <div className="App">
-        <body className="App-body">
-          <div className="container">
-            <div className="item">1</div>
-            <div className="item">2</div>
-            <div className="item">3</div>
-            <div className="item">4</div>
-            <div className="item">5</div>
-            <div className="item">6</div>
-            <div className="item">7</div>
-            <div className="item">8</div>
-            <div className="item">9</div>
-            <div className="item">10</div>
-          </div>
-        </body>
+      <div>
+        <h1>
+          Hello world
+        </h1>
+        {consoleThis()}
+        <div className="container">
+          <div className="item">Yo</div>
+          <div className="item">Yo Yo</div>
+          <div className="item">Yo Yo Yo</div>
+        </div>
       </div>
     );
   }
